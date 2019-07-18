@@ -105,9 +105,13 @@ header *{
 .head-span-right{
     padding: 25px 15px;
     float: right;
-
 }
-
+.head-span-left{
+    padding: 10px;
+    line-height: 60px;
+    font-size: 40px;
+    color: #f1c40f;
+}
 
 /* ---------------------
     BUTTON ANIMATION CSS 
