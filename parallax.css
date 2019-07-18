@@ -10,6 +10,12 @@ body{
     color: #fff;
     margin: 0;
     padding: 0;
+}
+
+main{
+    color: #fff;
+    margin: 0;
+    padding: 0;
     font-family: 'Luna';
     height: 100vh;
     perspective: 1px;
@@ -17,8 +23,6 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
-
-
 /* ---------------
     PARALLAX CSS 
 ------------------*/
@@ -185,7 +189,19 @@ header *{
     padding-top: 30px;
     color: white;
     position: relative;
-    z-index: 100;
+    z-index: 101;
+}
+.dummy-section{
+    height: 5vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* color: white; */
+    background: #333;
+    padding-top: 30px;
+    color: white;
+    position: relative;
+    /* z-index: 101; */
 }
 
 #container-1-left{
@@ -231,3 +247,32 @@ header *{
 .main-contenter{
     padding:20px 0px;
 }
+
+
+#constant-side{
+    position: absolute;
+    top: 50vh;
+    transform: translate(0,-50%);
+    right: 20px;
+    z-index: 500;
+    /* height: 100px; */
+    width: 50px;
+    /* background: white; */
+    color: transparent;
+}
+
+#constant-side ul li{
+    height: 5vh;
+}
+
+.radio-style{
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.radio-active{
+    background-color: #f1c40f;
+}
+
