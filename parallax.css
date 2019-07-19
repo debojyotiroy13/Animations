@@ -184,30 +184,17 @@ header *{
     MAIN BODY CSS 
 ------------------*/
 .section{
-    height: 100vh;
+    min-height: 100vh;
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
     /* color: white; */
     background: #333;
-    padding-top: 30px;
+    padding-top: 50px;
     color: white;
     position: relative;
     z-index: 101;
 }
-.dummy-section{
-    height: 5vh;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* color: white; */
-    background: #333;
-    padding-top: 30px;
-    color: white;
-    position: relative;
-    /* z-index: 101; */
-}
-
 #container-1-left{
     align-items: center;justify-content: center; height: 100vh; display: flex;
     font-family: 'Luna';
@@ -216,42 +203,23 @@ header *{
 #container-1-left h1{
     line-height: 80px;
 }
-
 #container-1-right{
     padding: 20vh 5vh;
 }
-
 .my-progressbar{
     background:#f1c40f !important;
 }
-
 .my-progress-elem{
     margin: 20px 0px;
 }
-/* ---------------
-    FOOTER CSS 
-------------------*/
-
-.footer{
-    min-height: 10vh;
-    max-height: 20vh;
-    text-align: center;
-    padding: 10px 0px;
-    background: #222;
-}
-
-.footer-text{
-    font-size: 12px;
-    font-weight: 100;
-    padding-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;
+.dates{
     color: bisque;
+    font-family: sans-serif;
 }
 
 .main-contenter{
     padding:20px 0px;
 }
-
 
 #constant-side{
     position: absolute;
@@ -280,3 +248,55 @@ header *{
     background-color: #f1c40f;
 }
 
+.skills-item{
+    border-left: 5px solid #e67e22;
+    padding: 10px;
+    margin: 20px;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    /* line-height: 25px; */
+    font-family: sans-serif;
+}
+
+.experience-item{
+    border-left: 5px solid #16a085;
+    padding: 10px 20px;
+    margin: 20px 2.5px;
+    /* border-radius: 5px; */
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    /* line-height: 25px; */
+    font-family: sans-serif;
+}
+.experience-item-span::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #e74c3c;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+/* ---------------
+    FOOTER CSS 
+------------------*/
+
+.footer{
+    min-height: 15vh;
+    max-height: 20vh;
+    text-align: center;
+    padding: 10px 0px;
+    background: #222;
+}
+
+.footer-text{
+    font-size: 10px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Luna';
+    color: bisque;
+}
