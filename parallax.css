@@ -39,11 +39,21 @@ header{
 }
 
 header h1{
-    margin-top: -100px;
+    margin-top: -20px;
     color: #fff;
     font-family: 'Luna';
     padding-bottom: 40px;
 }
+
+@media (min-width:300px){
+    /* header h1{
+        margin: 10vh 0vh 10vh;
+    } */
+    #container-1-left{
+        margin-top: 50px;
+    }
+}
+
 
 header p{
     color: #fff;
@@ -250,8 +260,8 @@ header *{
 
 .skills-item{
     border-left: 5px solid #e67e22;
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 20px;
+    margin: 20px 2.5px;
     /* border-radius: 5px; */
     font-size: 16px;
     letter-spacing: 0.2em;
