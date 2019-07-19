@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'luna';
+    font-style: normal;
+    font-weight: normal;
+    src: local('luna'), url('Luna.woff') format('woff');
+}
+
 html{
     height: 100%;
     overflow: hidden;
