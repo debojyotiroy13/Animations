@@ -55,9 +55,13 @@ header h1{
     padding-bottom: 40px;
 }
 
-@media (min-width:300px){
+
+@media (max-width:450px){
     #container-1-left{
         margin-top: 50px;
+    }
+    header h1{
+        margin-top: 10vh;
     }
 }
 
@@ -275,6 +279,15 @@ header *{
     /* line-height: 25px; */
     font-family: sans-serif;
 }
+.skills-item-span::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #f1c40f;
+    position: absolute;
+    margin-top: -15px;
+}
 
 .experience-item{
     border-left: 5px solid #16a085;
@@ -291,7 +304,7 @@ header *{
     width: 10px;
     height: 10px;
     border-radius: 10px;
-    background: #e74c3c;
+    background: #3498db;
     position: absolute;
     margin-top: -15px;
 }
