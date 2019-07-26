@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: monospace;
+    font-family: 'Lobster', cursive;
     box-sizing: border-box;
 }
+textarea, select, input, button { outline: none; }
 
 body{
     min-height: 100vh;
     background-image: linear-gradient(120deg,#3498db,#2ecc71);
+    
 }
 
 .login-form{
@@ -27,6 +29,8 @@ body{
     text-align: center;
     margin-bottom: 60px;
     color: #333;
+    color: lightseagreen;
+    font-size: 60px;
 }
 
 .txtbox{
@@ -100,6 +104,12 @@ body{
     color: #333;
     margin-top: 40px;
     text-align: center;
+    font-family: monospace ;
+}
+
+.bottom-text a{
+    /* font-family: monospace; */
+    color: lightseagreen;
 }
 
 .container{
@@ -107,9 +117,16 @@ body{
     margin: auto;
     min-height: 80vh;
 }
+
+.icon-container{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
 .navbar{
     min-height: 10vh;
-    background: white;
+    background: #333;;
 }
 .footer{
     min-height: 13vh;
@@ -133,6 +150,15 @@ body{
     /* width: 60px; */
     position: relative;
 }
+
+.nav-div a{
+    color: white;
+    
+}
+.nav-stash{
+    font-size: 40px;
+}
+
 .nav-div span::before{
     content: '';
     position: absolute;
@@ -249,8 +275,8 @@ body{
     display: block;
     height: 125%;
     width: 125%;
-    margin-top: -13%;
-    margin-left: -13%;
+    margin-top: -20%;
+    margin-left: -20%;
 }
 .btn::before{
     content: "";
