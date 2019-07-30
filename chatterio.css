@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', bold;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+textarea, select, input, button { outline: none; }
+
+body{
+    min-height: 100vh;
+    /* background-image: linear-gradient(120deg,#3498db,#2ecc71);    */
+    background: url('bg.svg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    padding: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #333;
+    padding: 0 30px;
+}
+
+#logo{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#logo img{
+    width: 200px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.container{
+    width: 60%;
+    text-align: center;
+    margin: 80px auto;    
+}
+
+h1{
+    font-size: 60px;
+    line-height: 120px;
+}
+
+.quotation{
+    margin: 0 auto;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+  
+  .quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 4em;
+  }
+  .quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 4em;
+  }
+  footer{
+    margin:0;
+    text-align: right;
+    font-style: italic;
+  }
